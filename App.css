@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  background-image: url('https://cdn.esbrasil.com.br/wp-content/uploads/2023/08/NEYMAR.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.game-board {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: white;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 2px solid #fff;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.square:hover {
+  background-color: #4a90e2;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.reset-button:hover {
+  background-color: #e6b800;
+}
